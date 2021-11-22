@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+pre{
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+.godown-icon{
+    position: absolute;
+    z-index: 10000;
+    bottom: 60px;
+    left: calc(50% - 32px);
+    cursor: pointer;
+}

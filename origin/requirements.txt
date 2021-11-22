@@ -1,0 +1,13 @@
+Flask
+werkzeug
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-HTMLmin
+Flask-request-params
+eventlet==0.30.2
+
+gunicorn
+validate_email
+py3dns
+requests
+mailjet-rest
