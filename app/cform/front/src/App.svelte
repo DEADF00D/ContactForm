@@ -79,6 +79,7 @@ function submitEmails(){
 
 <svelte:head>
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6197c01f7d727a63"></script>
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
 </svelte:head>
 
 <div class="container-fluid vh-100">
@@ -91,7 +92,7 @@ function submitEmails(){
 	-->
 
     <div class="row">
-        <div class="col bg-light vh-100">
+        <div class="col bg-light main">
             <div class="p-5 m-4">
                 <h1 class="display-4">Your contact form</h1>
                 <h2 class="display-5">free & ready in 10 seconds...</h2>
@@ -188,7 +189,14 @@ function submitEmails(){
 					<div class="addthis_inline_follow_toolbox_1x8t"></div>
 				</div>
 
-				<a href="https://www.iubenda.com/privacy-policy/40666792" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+				<div class="mt-4">
+					<a href="https://www.iubenda.com/privacy-policy/40666792" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+				</div>
+
+				<div class="mt-4">
+					<small>Now open-source !</small><br/>
+					<a class="github-button" href="https://github.com/DEADF00D/ContactForm" data-icon="octicon-star" data-size="large" aria-label="Star DEADF00D/ContactForm on GitHub">Star</a>
+				</div>
 
 				<div class="mt-4">
 					<p><small class="text-muted">Copyright © Didelot Maurice-Michel, All rights reserved.</small></p>
