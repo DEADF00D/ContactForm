@@ -22,3 +22,7 @@ pre{
     left: calc(50% - 32px);
     cursor: pointer;
 }
+
+.main{
+    min-height:100vh;
+}

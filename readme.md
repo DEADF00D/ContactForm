@@ -22,9 +22,9 @@ From now, every submission of this form, will redirect your users to a ReCaptcha
 
 ## GDPR Compliant
 
-We only store emails from collaborator.  
-We don't store submitted inputs and values.
-Privacy policy is available through `iubenda`
+- We only store emails from collaborator.
+- We don't store submitted inputs and values.
+- Privacy policy is available through `iubenda`
 
 ## Under the hood
 
