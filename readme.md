@@ -28,7 +28,7 @@ Privacy policy is available through `iubenda`
 
 ## Under the hood
 
-ContactForm is a `Python` + `Flask` project.
-The home page is a `Svelte` application.
-Static pages are built using template engine `Jinja2`.
+ContactForm is a `Python` + `Flask` project.  
+The home page is a `Svelte` application.  
+Static pages are built using template engine `Jinja2`.  
 Database is `Sqlite` (for now)
